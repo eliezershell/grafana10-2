@@ -6,6 +6,11 @@ Este repositório contém um script para facilitar a instalação do Grafana 10.
 
 Siga estas etapas para instalar o Grafana 10.2.2-1.x86_64 em seu sistema:
 
+1. **Inatale o GIT:**
+   ```
+   sudo dnf install git
+   ```
+
 1. **Clone este repositório:**
    ```
    git clone https://github.com/eliezershell/grafana10-2.git
