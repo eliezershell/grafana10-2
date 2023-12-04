@@ -15,6 +15,11 @@ Siga estas etapas para instalar o Grafana 10.2.2-1.x86_64 em seu sistema:
    ```
    cd grafana10-2; chmod +x instalador_grafana10.2.sh; ./instalador_grafana10.2.sh
    ```
+
+2. **Durante a execução do script, um arquivo de texto será automaticamente aberto; para concluir a instalação, salve o arquivo com este nome:**
+   ```
+   /etc/systemd/system/grafana-server.service.d/override.conf
+   ```
    
 ## Notas Adicionais
 
